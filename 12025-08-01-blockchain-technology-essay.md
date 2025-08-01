@@ -5,7 +5,7 @@ author: Jessica Austin
 date: 2025-08-01 10:00:00 +0800
 ---
 
-##Introduction
+Introduction
 
 Blockchain: a decentralised distributed digital ledger that records transactions across a network of computers. This ensures security, transparency and immutability. Apart from consensus, robust security measures are of paramount significance to protect these networks from all types of attacks and maintain their integrity and trustworthiness. (IBM, n.d.)
 
