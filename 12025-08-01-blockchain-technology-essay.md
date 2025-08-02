@@ -14,7 +14,7 @@ Blockchain operates on a combination of cryptography algorithms, consensus mecha
 This essay will delve into the broad range of consensus protocols powering blockchain function, as well as a comprehensive analysis of the critical security protocols safeguarding these new networks.
 
 
-##Proof of Work (PoW)
+Proof of Work (PoW)
 
 Proof-of-work (PoW) is a consensus algorithm used in a blockchain networks for the verification of transactions and addition of new blocks to a blockchain. It is done by solving complex computational problems, which consume sufficient processing power. The person who solves the puzzle first gets the privilege of adding the new block to the blockchain and is also rewarded with cryptocurrency. This mechanism ensures network safety and integrity because it is now computationally expensive to tamper with past transactions. (Crypto Industry, 2023; Microminder CS, 2024; Wikipedia contributors, n.d)
 
@@ -47,7 +47,7 @@ PoW verifies transactions and safe blockchain networks by compelling the people 
 - Hashcash: Hashcash, a system that was one of the first to employ PoW, was created by Adam Back in 1997 as an anti-spam device that required senders to perform a small amount of computational effort before sending mail. (Hedera, 2024; Wikipedia contributors, n.d.)
 
 
-##Proof of Stake (PoS)
+Proof of Stake (PoS)
 
 Proof of Stake, or proof-of-stake, is a consensus mechanism used by blockchain networks to authenticate transactions and create new blocks. Unlike proof-of-work (PoW), where cryptocurrency miners need to solve intricate cryptography problems, PoS selects validators depending on the ratio of cryptocurrency that they hold and are willing to "stake" as collateral.  (Gladwin, 2023; Ledger, 2023)
 
@@ -81,7 +81,7 @@ Proof-of-Stake (PoS) protocols have been researched extensively over the past fi
 - Staking Pools: Staking pools offer the users a doorway to PoS without the need for enormous initial stakes, so that additional investors can benefit from it.  (Johnson, 2023)
 
 
-##Proof of Staked Authority (PoSA)
+Proof of Staked Authority (PoSA)
 
 Proof of Staked Authority (PoSA) is a hybrid consensus mechanism that borrows concepts from Proof of Stake (PoS) and Proof of Authority (PoA) to secure a blockchain network, make it scalable, and efficient. PoSA combines validators having a monetary stake in the network and also upholding a good reputation, thereby establishing a balance system that disrecommends malicious behaviour through economic loss and repetitional loss. PoSA is utilised by the BNB Chain (formerly Binance Smart Chain) particularly, which is low-cost and high-speed, but been faulted for centralisation risks. (BabyPips.com, 2024; Bitget, n.d.)
 
@@ -110,7 +110,7 @@ PoSA is ideally applicable to Decentralised finance (DeFi) applications that req
 - Private Blockchain Networks: Private blockchain networks that have an interest in speed and control are well-suited for PoSA since it can generate blocks at high speed and low-cost transaction verification. (Bitpanda, 2024; Tatum, 2024)
 
 
-##Delegated Proof of Stake (DPoS)
+Delegated Proof of Stake (DPoS)
 
 Delegated Proof of Stake (DPoS) is a Proof of Stake (PoS)-based consensus that aims to render blockchain networks more democratic and efficient. Users in DPoS vote and select delegates to validate the next block, which makes the system more democratic.
 
@@ -137,7 +137,7 @@ Applicability
 Consensus algorithm used in blockchain networks that allows users to vote for delegates to validate transactions and create new blocks, which has high scalability, quick transaction speed, and minimal energy consumption. (EG: EOS, TRON, BitShares, and Steem, all of which utilise DPoS to secure their network and confirm transactions) (Rhodes, 2025; Tangem, 2024)
 
 
-##Proof of Burn (PoB)
+Proof of Burn (PoB)
 
 Proof of Burn (PoB) is a consensus mechanism that is used in blockchain networks to authenticate transactions and secure the network by forcing users to 'burn' part of their cryptocurrency balance. It is accomplished by transferring coins to an unspendable address, essentially removing them from circulation and demonstrating commitment to the network (Coinbase, n.d.)
 
@@ -168,7 +168,7 @@ Proof of Burn (PoB) is predominantly a proof-of-concept consensus algorithm used
 - Hybrid Consensus Models: Neither a standalone primary consensus, but more PoB concepts being integrated into richer hybrid models. (You can decide whether or not you'd like to keep TGCoin as an example, possibly discussing its issues as a case study within the paragraph (Arch Lending, n.d.; Kanga Exchange, n.d)
 
 
-##Proof of Activity (PoA)
+Proof of Activity (PoA)
 
 Proof of Activity (PoA) is a block chain consensus algorithm that combines elements of both Proof of Work (PoW) and Proof of Stake (PoS) in an attempt to validate transactions as well as form new blocks in a block chain network. Its aim is to eliminate some of the disadvantages of both PoW and PoS by combining their strengths (Arch Lending, n.d.; Nadcabadmin, 2025)
 
@@ -195,7 +195,7 @@ Proof of Activity (PoA) is theoretically and experimentally hybrid of consensus 
 - Transitional Mechanisms: PoA can be an intermediate phase for a blockchain network that is going to switch from a full PoW system to a full PoS system, allowing for a clean transition while maintaining a good security posture. (Nadcabadmin, 2025)
 
 
-##Proof of Space (PoSpace)
+Proof of Space (PoSpace)
 
 Proof-of-Space (PoSpace), also known as Proof-of-Capacity (PoC), is a blockchain consensus mechanism that leverages the use of idle storage space on pre-allocated hard drives or disk space. (Logos Network, 2018; ”Proof of Space," 2025)
 
@@ -227,7 +227,7 @@ Proof of Space (PoSpace) is an appropriate for environmentally friendly and dece
 Role of Miners in Maintaining Consensus, Cryptographic Puzzles, and Their Solutions
 
 
-##Security Measures Against Attacks
+Security Measures Against Attacks
 
 In a Proof of Work (PoW) blockchain, miners are not not just individuals running software, they are, also, the fundamental contributors to network security, integrity, and the act of consensus on the state of the ledger. They are multi-faceted in their role. (Bitdeer, 2024; Coin World, 2025; TechTarget, n.d.)
 - Transaction Aggregation and Verifying: Miners wait for new, unconfirmed transactions announced on the network. They check these transactions for validity (such as checking valid signatures and sufficient funds) before bundling them into a candidate block. (Montevirgen & Garnett, 2025)
@@ -241,7 +241,7 @@ Penalties for Malicious Behaviour
 Blockchain security measures against attacks, particularly penalties for malicious behaviour in consensus algorithms, are crucial for maintaining network integrity
 
 
-##PoW Penalties
+PoW Penalties
 
 Deceptive punishment within Proof of Work (PoW) consensus algorithms is primarily economic punishment in the sense of disincentives and not confiscatory. It is the very nature of PoW that makes it economically costly for a miner to behave deceptively or inefficiently. (Sayeed & Marco-Gisbert, 2019)
 - Resource Wastage: Miners wastefully spend enormous computational resources and energy to solve the cryptographic puzzle required to mine a block. When a miner attempts to validate fake transactions, construct a faked block, or mine on a fork rejected by the rightful network, they waste their enormous hardware investment and energy. The rightful network will simply refuse their shorter chain or fake block.
@@ -250,7 +250,7 @@ Deceptive punishment within Proof of Work (PoW) consensus algorithms is primaril
 These economic penalties inherent in the design ensure that honest play is most lucrative, thereby guaranteeing the integrity and security of the network
 
 
-##PoS Penalties (Slashing)
+PoS Penalties (Slashing)
 
 Slashing is a critical security component of Proof of Stake (PoS) consensus protocols that dissuades validators from acting dishonestly by penalising them for violating consensus rules. Slashing creates a financial incentive for validators to ensure network integrity, which prevents attacks such as the "Nothing at Stake" problem and Sybil attacks. (How.dev, n.d; CertiK, 2023)
 - Slashing: A punishment system in PoS blockchains in which validators lose part of their staked cryptocurrency for violating consensus rules and thus ensuring network security and integrity. (Kraken Learn team, 2025)
@@ -258,7 +258,7 @@ Slashing is a critical security component of Proof of Stake (PoS) consensus prot
 - Casper Protocol: Ethereum's proof-of-stake protocol that utilises slashing to penalise cheating validators in a manner that the cheaters themselves also risk losing something and are therefore deterred from lying. (Schwarz, 2019)
 
 
-##Considerations for Long-Range Attacks
+Considerations for Long-Range Attacks
 
 Security of blockchain against attacks, and long-range attacks in particular, is a product of consensus algorithm design, cryptographic practices, and constant monitoring. Long-range attacks, where an attacker attempts to rewrite the history of the blockchain from a distant point, pose one of the most significant threats to the integrity of blockchain network (Venkatesan & Rahayu, 2024)
 - Weak Subjectivity: New nodes joining the network don't need to verify the entire history from the genesis block. Instead, they are intended to depend on a recent, generally agreed-upon "checkpoint" or set of trusted peers to determine the valid chain. This substantially decreases the window of opportunity an attacker has to rewrite history, since rewriting before the checkpoint would be immediately rejected by new and existing nodes. (Venkatesan & Rahayu, 2024)
@@ -269,7 +269,7 @@ These actions combined ensure that even in a PoS environment, the complexity and
 
 
 
-##Time-bomb Attacks
+Time-bomb Attacks
 
 A "time-bomb attack" in the realm of blockchain is a disingenuous name, as it typically does not refer to a hostile external attack, but to a pre-programmed system incorporated into a blockchain's protocol that is usually found in Proof of Work (PoW) setups. The system serves to gradually, exponentially increase the mining difficulty over time, making it progressively more difficult and eventually useless or impossible to mine new blocks. (Olympix, 2024)
 
@@ -283,12 +283,12 @@ The primary goal of a time-bomb is to serve as a motivation for an upcoming netw
 Thus, although it is intended as a network evolution strategic tool, the effective administration and timely resolution of a time-bomb are paramount to sustaining the continuous operation and safety of the blockchain.
 
 
-##Vulnerabilities in Blockchain, Particularly the Risk of Losing Private Keys
+Vulnerabilities in Blockchain, Particularly the Risk of Losing Private Keys
 
 Private key refers to a secret, alphanumeric sequence of characters that grants its owner sole possession and control over his or her cryptocurrency holdings on a blockchain. It is the ultimate state of possession, and owners can utilise it to sign messages and transfer their digital coins. Hence, this private key needs to be safe.
 
 
-##Risk of Loss or Theft
+Risk of Loss or Theft
 
 The inherent individuality of private keys imposes a critical single point of failure within a person's holdings of blockchain:
 Irreversible Loss: If an irrevocably lost private key (i.e., forgotten, destroyed without any backup being made) exists, the associated cryptocurrency is lost forever. There is no governing body that can recover lost funds or keys.
@@ -301,13 +301,13 @@ Irreversible Loss: If an irrevocably lost private key (i.e., forgotten, destroye
 - Human Error: Unintentionally deleting a digital wallet file, misplacing a physical paper copy, or forgetting the necessary password or passphrase can lead to irreversible loss of access to money.
 - Endpoint Vulnerabilities: Attackers can exploit security flaws at the device level (e.g., an infected employee personal computer, such as the 2017 Bithumb crypto exchange hack), app level, or through third-party suppliers, to gain access to systems where sensitive keys or private access credentials are stored or accessed. (Bachchas, 2024; Chainalysis Team, 2025; Krishna, 2025; SentinelOne, 2025)
 
-##Role Played by Different Types of Wallets towards Enhanced Security
+Role Played by Different Types of Wallets towards Enhanced Security
 
 A blockchain wallet is a software application that allows users to send, receive, and spend cryptocurrencies by securely storing their public and private cryptographic keys. It is a method of accessing the blockchain network that enables users to send, receive, and monitor their digital assets. Blockchain wallets do not hold cryptocurrency physically as a wallet but provide users with access to the user's assets on the blockchain via cryptographic keys  (Coinbase, n.d.)
 
 
 
-##Wallets and their Security Implications
+Wallets and their Security Implications
 
 - Hot Wallets (Online/Software Wallets)
 Convenient online-based wallets appropriate for regular transactions but exposed to greater online threats
@@ -333,7 +333,7 @@ Non-Custodial: complete control of private keys and money by users, with users t
 
 
 
-##Summary
+Summary
 
 Consensus protocols are in fact the core of blockchain technology because they are the foundational mechanisms that freeze in the integrity, ensure the security, and preserve the decentralisation of distributed ledgers. By their ability to enable various nodes to reach a consensus on whether a transaction is valid or not and the proper state of the ledger without the existence of a central authority, these protocols are crucial to secure and trustworthy decentralised systems. There paramount role in preventing fraud, maintaining data consistency, and enabling secure and transparent operation across blockchain networks.
 
@@ -344,7 +344,7 @@ Finally, the stability and integrity of blockchain networks are directly based o
 
 
 
-##References
+References
 
 IBM. (n.d.). *Blockchain.* IBM Think. https://www.ibm.com/think/topics/blockchain
 
